@@ -1,0 +1,1 @@
+http://websystique.com/springmvc/spring-4-mvc-jms-activemq-annotation-based-example/

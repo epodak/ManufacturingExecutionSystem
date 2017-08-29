@@ -1,0 +1,20 @@
+<project name="js" default="main" basedir=".">
+
+    <property name="message" value="No worries."/>
+
+    <target name="main">
+
+        <script language="javascript"> <![CDATA[
+
+            echo = js.createTask("echo");
+            main.addTask(echo);
+
+            for (loopIndex = 1; loopIndex <= 10; loopIndex++) {
+                echo.setMessage(loopIndex);
+                echo.execute();
+            }
+            echo.setMessage(message);      
+        ]]> </script>
+
+    </target>
+</project>

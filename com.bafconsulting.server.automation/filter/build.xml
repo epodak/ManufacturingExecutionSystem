@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<project basedir="." default="main">
+
+    <property name="src" value="src"/>
+    <property name="output" value="output"/>
+    <property name="commented" value="commented"/>
+
+    <target name="main" depends="jar">
+        <copy todir="${commented}">
+            <fileset dir="${src}" includes="**/*.java"/>
+            <filterchain>
+                <filterreader
+                  classname="ProjectFilter"
+                  classpath="Project.jar"/>
+            </filterchain>
+        </copy>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${output}"/>
+        <mkdir dir="${commented}"/>
+        <javac srcdir="${src}" destdir="${output}"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <jar destfile="Project.jar" basedir="${output}"/>
+    </target>
+
+</project>
+

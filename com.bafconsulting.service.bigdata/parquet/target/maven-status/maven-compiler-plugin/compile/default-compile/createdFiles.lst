@@ -1,0 +1,8 @@
+ParquetToTextWithAvro.class
+ParquetToTextWithExample.class
+TextToParquetWithAvro$TextToParquetMapper.class
+ParquetToTextWithAvro$ParquetToTextMapper.class
+TextToParquetWithExample$TextToParquetMapper.class
+TextToParquetWithAvro.class
+ParquetToTextWithExample$ParquetToTextMapper.class
+TextToParquetWithExample.class

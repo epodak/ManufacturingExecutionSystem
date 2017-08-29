@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: "eclipse"
+
+group = 'logbackServer'
+version = '0.0.1-SNAPSHOT'
+
+description = """..."""
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+
+repositories {
+        
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    compile group: 'ch.qos.logback', name: 'logback-classic', version:'1.1.7'
+    compile group: 'ch.qos.logback', name: 'logback-core', version:'1.1.7'
+    compile group: 'ch.qos.logback', name: 'logback-access', version:'0.2.5'
+}

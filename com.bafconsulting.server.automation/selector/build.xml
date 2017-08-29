@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<project basedir="." default="main">
+
+    <property name="src" value="src"/>
+    <property name="output" value="output"/>
+    <property name="sizeOK" value="sizeOK"/>
+
+    <target name="main" depends="jar">
+
+        <copy todir="${sizeOK}">
+            <fileset dir="${src}">
+                <selector>
+                    <custom classname="ProjectSelector" classpath="Project.jar"/>
+                </selector>
+            </fileset>
+        </copy>
+
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${output}"/>
+        <mkdir dir="${sizeOK}"/>
+        <javac srcdir="${src}" destdir="${output}"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <jar destfile="Project.jar" basedir="${output}"/>
+    </target>
+
+</project>

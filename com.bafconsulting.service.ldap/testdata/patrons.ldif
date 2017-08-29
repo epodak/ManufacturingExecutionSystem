@@ -1,0 +1,2232 @@
+dn: dc=inflinx,dc=com
+objectClass: top
+objectClass: domain
+dc: inflinx
+
+dn: ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: organizationalunit
+ou: patrons
+
+dn: uid=patron0,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Aaccf
+sn: Amar
+cn: Aaccf Amar
+initials: ARA
+employeeNumber: 0
+uid: patron0
+mail:: cGF0cm9uMEBpbmZsaW54LmNvbSA=
+userPassword: password
+telephoneNumber: +1 688 926 3146
+homePhone: +1 092 210 9726
+mobile: +1 189 955 5012
+street: 08904 Sixth Street
+l: Fairbanks
+st: IA
+postalCode: 10928
+postalAddress: Aaccf Amar$08904 Sixth Street$Fairbanks, IA  10928
+
+dn: uid=patron1,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Aaren
+sn: Atp
+cn: Aaren Atp
+initials: AVA
+employeeNumber: 1
+uid: patron1
+mail:: cGF0cm9uMUBpbmZsaW54LmNvbSA=
+userPassword: password
+telephoneNumber: +1 060 647 4847
+homePhone: +1 288 510 4776
+mobile: +1 794 968 5520
+street: 69863 Pine Street
+l: Watertown
+st: NH
+postalCode: 00014
+postalAddress: Aaren Atp$69863 Pine Street$Watertown, NH  00014
+
+dn: uid=patron2,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Aarika
+sn: Atpco
+cn: Aarika Atpco
+initials: AJA
+employeeNumber: 2
+uid: patron2
+mail:: cGF0cm9uMkBpbmZsaW54LmNvbSA=
+userPassword: password
+telephoneNumber: +1 249 456 3062
+homePhone: +1 015 847 4840
+mobile: +1 020 538 0090
+street: 80702 Fourth Street
+l: Panama City
+st: NE
+postalCode: 20867
+postalAddress: Aarika Atpco$80702 Fourth Street$Panama City, NE  20867
+
+dn: uid=patron3,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Aaron
+sn: Atrc
+cn: Aaron Atrc
+initials: AEA
+employeeNumber: 3
+uid: patron3
+mail:: cGF0cm9uM0BpbmZsaW54LmNvbSA=
+userPassword: password
+telephoneNumber: +1 711 901 2164
+homePhone: +1 570 500 9449
+mobile: +1 061 370 1046
+street: 31272 Williams Street
+l: El Paso
+st: SC
+postalCode: 94065
+postalAddress: Aaron Atrc$31272 Williams Street$El Paso, SC  94065
+
+dn: uid=patron4,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Aartjan
+sn: Aalders
+cn: Aartjan Aalders
+initials: ASA
+employeeNumber: 4
+uid: patron4
+mail:: cGF0cm9uNEBpbmZsaW54LmNvbSA=
+userPassword: password
+telephoneNumber: +1 389 853 5091
+homePhone: +1 452 177 1130
+mobile: +1 854 079 7129
+street: 80156 Highland Street
+l: Cedar Rapids
+st: SC
+postalCode: 57018
+postalAddress: Aartjan Aalders$80156 Highland Street$Cedar Rapids, SC  57018
+
+dn: uid=patron5,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abagael
+sn: Aasen
+cn: Abagael Aasen
+initials: AEA
+employeeNumber: 5
+uid: patron5
+mail:: cGF0cm9uNUBpbmZsaW54LmNvbSA=
+userPassword: password
+telephoneNumber: +1 683 193 4818
+homePhone: +1 294 361 5886
+mobile: +1 186 083 2250
+street: 67890 Fifteenth Street
+l: Salisbury
+st: WA
+postalCode: 72970
+postalAddress: Abagael Aasen$67890 Fifteenth Street$Salisbury, WA  72970
+
+dn: uid=patron6,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abagail
+sn: Abadines
+cn: Abagail Abadines
+initials: ARA
+employeeNumber: 6
+uid: patron6
+mail:: cGF0cm9uNkBpbmZsaW54LmNvbSA=
+userPassword: password
+telephoneNumber: +1 585 757 7843
+homePhone: +1 626 338 5090
+mobile: +1 584 017 3240
+street: 30180 Jefferson Street
+l: Jacksonville
+st: HI
+postalCode: 77268
+postalAddress: Abagail Abadines$30180 Jefferson Street$Jacksonville, HI  77268
+
+dn: uid=patron7,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abahri
+sn: Abazari
+cn: Abahri Abazari
+initials: AOA
+employeeNumber: 7
+uid: patron7
+mail:: cGF0cm9uN0BpbmZsaW54LmNvbSA=
+userPassword: password
+telephoneNumber: +1 771 702 5902
+homePhone: +1 686 075 4187
+mobile: +1 925 203 5326
+street: 39808 Tenth Street
+l: Fort Smith
+st: TN
+postalCode: 73095
+postalAddress: Abahri Abazari$39808 Tenth Street$Fort Smith, TN  73095
+
+dn: uid=patron8,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abbas
+sn: Abbatantuono
+cn: Abbas Abbatantuono
+initials: AJA
+employeeNumber: 8
+uid: patron8
+mail:: cGF0cm9uOEBpbmZsaW54LmNvbSA=
+userPassword: password
+telephoneNumber: +1 296 996 8308
+homePhone: +1 048 056 6033
+mobile: +1 988 609 0703
+street: 67604 Hill Street
+l: Butte
+st: IL
+postalCode: 00464
+postalAddress: Abbas Abbatantuono$67604 Hill Street$Butte, IL  00464
+
+dn: uid=patron9,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abbe
+sn: Abbate
+cn: Abbe Abbate
+initials: AKA
+employeeNumber: 9
+uid: patron9
+mail:: cGF0cm9uOUBpbmZsaW54LmNvbSA=
+userPassword: password
+telephoneNumber: +1 133 576 5003
+homePhone: +1 281 068 3898
+mobile: +1 460 249 0403
+street: 20802 Eighth Street
+l: Reno
+st: AZ
+postalCode: 40210
+postalAddress: Abbe Abbate$20802 Eighth Street$Reno, AZ  40210
+
+dn: uid=patron10,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abbey
+sn: Abbie
+cn: Abbey Abbie
+initials: AJA
+employeeNumber: 10
+uid: patron10
+mail:: cGF0cm9uMTBAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 908 471 6510
+homePhone: +1 596 217 0342
+mobile: +1 428 728 8377
+street: 09977 Washington Street
+l: New York
+st: RI
+postalCode: 95571
+postalAddress: Abbey Abbie$09977 Washington Street$New York, RI  95571
+
+dn: uid=patron11,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abbi
+sn: Abbott
+cn: Abbi Abbott
+initials: AHA
+employeeNumber: 11
+uid: patron11
+mail:: cGF0cm9uMTFAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 228 814 0672
+homePhone: +1 662 940 6754
+mobile: +1 587 470 4699
+street: 44073 Cedar Street
+l: Tuscaloosa
+st: OK
+postalCode: 07007
+postalAddress: Abbi Abbott$44073 Cedar Street$Tuscaloosa, OK  07007
+
+dn: uid=patron12,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abbie
+sn: Abdalla
+cn: Abbie Abdalla
+initials: AYA
+employeeNumber: 12
+uid: patron12
+mail:: cGF0cm9uMTJAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 937 652 3518
+homePhone: +1 474 823 7989
+mobile: +1 150 933 7884
+street: 26117 Ninth Street
+l: Binghamton
+st: KY
+postalCode: 86603
+postalAddress: Abbie Abdalla$26117 Ninth Street$Binghamton, KY  86603
+
+dn: uid=patron13,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abby
+sn: Abdo
+cn: Abby Abdo
+initials: AMA
+employeeNumber: 13
+uid: patron13
+mail:: cGF0cm9uMTNAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 826 250 7403
+homePhone: +1 773 721 0886
+mobile: +1 702 927 4145
+street: 21092 North Street
+l: Bakersfield
+st: MO
+postalCode: 40901
+postalAddress: Abby Abdo$21092 North Street$Bakersfield, MO  40901
+
+dn: uid=patron14,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abbye
+sn: Abdollahi
+cn: Abbye Abdollahi
+initials: AZA
+employeeNumber: 14
+uid: patron14
+mail:: cGF0cm9uMTRAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 710 304 0342
+homePhone: +1 205 017 9300
+mobile: +1 600 870 3622
+street: 44090 Jefferson Street
+l: Baton Rouge
+st: MA
+postalCode: 90716
+postalAddress: Abbye Abdollahi$44090 Jefferson Street$Baton Rouge, MA  90716
+
+dn: uid=patron15,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abdalla
+sn: Abdou
+cn: Abdalla Abdou
+initials: AXA
+employeeNumber: 15
+uid: patron15
+mail:: cGF0cm9uMTVAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 000 482 6230
+homePhone: +1 792 293 1855
+mobile: +1 151 020 8671
+street: 83899 Laurel Street
+l: Charlottesville
+st: WI
+postalCode: 60548
+postalAddress: Abdalla Abdou$83899 Laurel Street$Charlottesville, WI  60548
+
+dn: uid=patron16,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abdallah
+sn: Abdul-Nour
+cn: Abdallah Abdul-Nour
+initials: ALA
+employeeNumber: 16
+uid: patron16
+mail:: cGF0cm9uMTZAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 687 242 3113
+homePhone: +1 471 181 4590
+mobile: +1 020 444 5100
+street: 63788 Lee Street
+l: Providence
+st: MI
+postalCode: 21020
+postalAddress: Abdallah Abdul-Nour$63788 Lee Street$Providence, MI  21020
+
+dn: uid=patron17,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abdul
+sn: Abdulla
+cn: Abdul Abdulla
+initials: ARA
+employeeNumber: 17
+uid: patron17
+mail:: cGF0cm9uMTdAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 940 403 3739
+homePhone: +1 233 063 5061
+mobile: +1 421 058 0950
+street: 50301 Fifteenth Street
+l: Alpena
+st: MD
+postalCode: 71873
+postalAddress: Abdul Abdulla$50301 Fifteenth Street$Alpena, MD  71873
+
+dn: uid=patron18,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abdullah
+sn: Abdullah
+cn: Abdullah Abdullah
+initials: ALA
+employeeNumber: 18
+uid: patron18
+mail:: cGF0cm9uMThAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 008 048 6164
+homePhone: +1 905 331 1055
+mobile: +1 813 606 9059
+street: 74813 Highland Street
+l: Anchorage
+st: WA
+postalCode: 31932
+postalAddress: Abdullah Abdullah$74813 Highland Street$Anchorage, WA  31932
+
+dn: uid=patron19,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abe
+sn: Abe
+cn: Abe Abe
+initials: AJA
+employeeNumber: 19
+uid: patron19
+mail:: cGF0cm9uMTlAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 457 412 6701
+homePhone: +1 305 820 1648
+mobile: +1 001 565 3227
+street: 59010 Spruce Street
+l: Bangor
+st: VA
+postalCode: 63402
+postalAddress: Abe Abe$59010 Spruce Street$Bangor, VA  63402
+
+dn: uid=patron20,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abel
+sn: Abedi
+cn: Abel Abedi
+initials: ASA
+employeeNumber: 20
+uid: patron20
+mail:: cGF0cm9uMjBAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 855 201 6536
+homePhone: +1 844 473 9932
+mobile: +1 395 417 5110
+street: 56074 Locust Street
+l: Wilmington
+st: AK
+postalCode: 96217
+postalAddress: Abel Abedi$56074 Locust Street$Wilmington, AK  96217
+
+dn: uid=patron21,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abigael
+sn: Abel
+cn: Abigael Abel
+initials: ASA
+employeeNumber: 21
+uid: patron21
+mail:: cGF0cm9uMjFAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 075 860 1023
+homePhone: +1 860 859 4591
+mobile: +1 101 357 2421
+street: 02433 Fifteenth Street
+l: Huntsville
+st: MO
+postalCode: 29778
+postalAddress: Abigael Abel$02433 Fifteenth Street$Huntsville, MO  29778
+
+dn: uid=patron22,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abigail
+sn: Abell
+cn: Abigail Abell
+initials: AVA
+employeeNumber: 22
+uid: patron22
+mail:: cGF0cm9uMjJAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 407 148 2832
+homePhone: +1 208 748 9745
+mobile: +1 206 331 2511
+street: 86524 Sixth Street
+l: Gainesville
+st: AZ
+postalCode: 53270
+postalAddress: Abigail Abell$86524 Sixth Street$Gainesville, AZ  53270
+
+dn: uid=patron23,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abigale
+sn: Abella
+cn: Abigale Abella
+initials: AIA
+employeeNumber: 23
+uid: patron23
+mail:: cGF0cm9uMjNAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 398 802 0243
+homePhone: +1 090 435 2596
+mobile: +1 156 054 1543
+street: 35049 Hillcrest Street
+l: Chico
+st: SD
+postalCode: 07223
+postalAddress: Abigale Abella$35049 Hillcrest Street$Chico, SD  07223
+
+dn: uid=patron24,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abra
+sn: Abello
+cn: Abra Abello
+initials: AGA
+employeeNumber: 24
+uid: patron24
+mail:: cGF0cm9uMjRAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 196 278 0203
+homePhone: +1 490 026 2202
+mobile: +1 929 074 8100
+street: 17577 Madison Street
+l: Anchorage
+st: DE
+postalCode: 44136
+postalAddress: Abra Abello$17577 Madison Street$Anchorage, DE  44136
+
+dn: uid=patron25,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abraham
+sn: Abelow
+cn: Abraham Abelow
+initials: AEA
+employeeNumber: 25
+uid: patron25
+mail:: cGF0cm9uMjVAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 752 105 7676
+homePhone: +1 652 400 2006
+mobile: +1 792 514 8072
+street: 69454 Davis Street
+l: Buffalo
+st: CA
+postalCode: 60961
+postalAddress: Abraham Abelow$69454 Davis Street$Buffalo, CA  60961
+
+dn: uid=patron26,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Abu
+sn: Abernathy
+cn: Abu Abernathy
+initials: AVA
+employeeNumber: 26
+uid: patron26
+mail:: cGF0cm9uMjZAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 109 509 6486
+homePhone: +1 110 018 2201
+mobile: +1 324 054 0021
+street: 52434 Forest Street
+l: Pueblo
+st: TX
+postalCode: 51902
+postalAddress: Abu Abernathy$52434 Forest Street$Pueblo, TX  51902
+
+dn: uid=patron27,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Access
+sn: Abernethy
+cn: Access Abernethy
+initials: ABA
+employeeNumber: 27
+uid: patron27
+mail:: cGF0cm9uMjdAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 676 369 7773
+homePhone: +1 891 563 5746
+mobile: +1 044 212 0906
+street: 50637 Walnut Street
+l: Youngstown
+st: CT
+postalCode: 61663
+postalAddress: Access Abernethy$50637 Walnut Street$Youngstown, CT  61663
+
+dn: uid=patron28,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Accounting
+sn: Abi-Aad
+cn: Accounting Abi-Aad
+initials: ARA
+employeeNumber: 28
+uid: patron28
+mail:: cGF0cm9uMjhAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 598 192 8752
+homePhone: +1 148 601 5017
+mobile: +1 325 985 8266
+street: 50529 Central Street
+l: Jackson
+st: MT
+postalCode: 32097
+postalAddress: Accounting Abi-Aad$50529 Central Street$Jackson, MT  32097
+
+dn: uid=patron29,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Achal
+sn: Abou-Arrage
+cn: Achal Abou-Arrage
+initials: APA
+employeeNumber: 29
+uid: patron29
+mail:: cGF0cm9uMjlAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 766 009 6127
+homePhone: +1 200 500 1205
+mobile: +1 390 224 1299
+street: 66422 Center Street
+l: Ottumwa
+st: MD
+postalCode: 45342
+postalAddress: Achal Abou-Arrage$66422 Center Street$Ottumwa, MD  45342
+
+dn: uid=patron30,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Achamma
+sn: Abou-Ezze
+cn: Achamma Abou-Ezze
+initials: AIA
+employeeNumber: 30
+uid: patron30
+mail:: cGF0cm9uMzBAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 916 308 8410
+homePhone: +1 381 176 0031
+mobile: +1 549 092 0461
+street: 04277 First Street
+l: Jonesboro
+st: WA
+postalCode: 74374
+postalAddress: Achamma Abou-Ezze$04277 First Street$Jonesboro, WA  74374
+
+dn: uid=patron31,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Action
+sn: Aboul-Magd
+cn: Action Aboul-Magd
+initials: AGA
+employeeNumber: 31
+uid: patron31
+mail:: cGF0cm9uMzFAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 482 064 0093
+homePhone: +1 390 178 7556
+mobile: +1 090 178 0180
+street: 20809 Thirteenth Street
+l: Amarillo
+st: HI
+postalCode: 38751
+postalAddress: Action Aboul-Magd$20809 Thirteenth Street$Amarillo, HI  38751
+
+dn: uid=patron32,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Ada
+sn: Aboussouan
+cn: Ada Aboussouan
+initials: ALA
+employeeNumber: 32
+uid: patron32
+mail:: cGF0cm9uMzJAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 027 094 0108
+homePhone: +1 789 930 0158
+mobile: +1 901 230 1710
+street: 22265 Spring Street
+l: Green Bay
+st: AR
+postalCode: 73406
+postalAddress: Ada Aboussouan$22265 Spring Street$Green Bay, AR  73406
+
+dn: uid=patron33,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adah
+sn: Abovyan
+cn: Adah Abovyan
+initials: ATA
+employeeNumber: 33
+uid: patron33
+mail:: cGF0cm9uMzNAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 809 098 3716
+homePhone: +1 669 888 4142
+mobile: +1 926 009 6412
+street: 34803 Sycamore Street
+l: Santa Fe
+st: IA
+postalCode: 99086
+postalAddress: Adah Abovyan$34803 Sycamore Street$Santa Fe, IA  99086
+
+dn: uid=patron34,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adaline
+sn: Abraham
+cn: Adaline Abraham
+initials: AXA
+employeeNumber: 34
+uid: patron34
+mail:: cGF0cm9uMzRAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 570 002 2805
+homePhone: +1 791 640 4381
+mobile: +1 806 994 9139
+street: 34306 Spruce Street
+l: Saint Joseph
+st: AZ
+postalCode: 67254
+postalAddress: Adaline Abraham$34306 Spruce Street$Saint Joseph, AZ  67254
+
+dn: uid=patron35,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adam
+sn: Abrahim
+cn: Adam Abrahim
+initials: ATA
+employeeNumber: 35
+uid: patron35
+mail:: cGF0cm9uMzVAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 879 756 9198
+homePhone: +1 085 640 3880
+mobile: +1 613 875 5033
+street: 26489 Sycamore Street
+l: Meridian
+st: HI
+postalCode: 91525
+postalAddress: Adam Abrahim$26489 Sycamore Street$Meridian, HI  91525
+
+dn: uid=patron36,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adan
+sn: Abrams
+cn: Adan Abrams
+initials: AKA
+employeeNumber: 36
+uid: patron36
+mail:: cGF0cm9uMzZAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 070 142 9870
+homePhone: +1 233 207 4309
+mobile: +1 500 120 0253
+street: 54246 Miller Street
+l: Santa Barbara
+st: TX
+postalCode: 31317
+postalAddress: Adan Abrams$54246 Miller Street$Santa Barbara, TX  31317
+
+dn: uid=patron37,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adara
+sn: Absi
+cn: Adara Absi
+initials: ASA
+employeeNumber: 37
+uid: patron37
+mail:: cGF0cm9uMzdAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 038 227 7701
+homePhone: +1 255 724 9079
+mobile: +1 288 092 3480
+street: 96801 Railroad Street
+l: Mankato
+st: TX
+postalCode: 57829
+postalAddress: Adara Absi$96801 Railroad Street$Mankato, TX  57829
+
+dn: uid=patron38,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adda
+sn: Acelvari
+cn: Adda Acelvari
+initials: ARA
+employeeNumber: 38
+uid: patron38
+mail:: cGF0cm9uMzhAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 304 104 8758
+homePhone: +1 049 404 6908
+mobile: +1 246 281 0500
+street: 91277 Pine Street
+l: Minneapolis
+st: DE
+postalCode: 93020
+postalAddress: Adda Acelvari$91277 Pine Street$Minneapolis, DE  93020
+
+dn: uid=patron39,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Addi
+sn: Acharyya
+cn: Addi Acharyya
+initials: AVA
+employeeNumber: 39
+uid: patron39
+mail:: cGF0cm9uMzlAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 900 368 0154
+homePhone: +1 482 008 4022
+mobile: +1 343 058 6422
+street: 09533 Sunset Street
+l: Salisbury
+st: DC
+postalCode: 87793
+postalAddress: Addi Acharyya$09533 Sunset Street$Salisbury, DC  87793
+
+dn: uid=patron40,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Addia
+sn: Achcar
+cn: Addia Achcar
+initials: ASA
+employeeNumber: 40
+uid: patron40
+mail:: cGF0cm9uNDBAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 786 353 7850
+homePhone: +1 506 616 3006
+mobile: +1 773 067 5804
+street: 85252 Second Street
+l: Raleigh
+st: MO
+postalCode: 69085
+postalAddress: Addia Achcar$85252 Second Street$Raleigh, MO  69085
+
+dn: uid=patron41,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Addie
+sn: Achille
+cn: Addie Achille
+initials: AEA
+employeeNumber: 41
+uid: patron41
+mail:: cGF0cm9uNDFAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 696 700 1805
+homePhone: +1 771 220 6048
+mobile: +1 162 010 2297
+street: 90338 Franklin Street
+l: Meridian
+st: NM
+postalCode: 03600
+postalAddress: Addie Achille$90338 Franklin Street$Meridian, NM  03600
+
+dn: uid=patron42,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Addons
+sn: Achkar
+cn: Addons Achkar
+initials: AOA
+employeeNumber: 42
+uid: patron42
+mail:: cGF0cm9uNDJAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 907 643 9815
+homePhone: +1 566 005 0066
+mobile: +1 037 760 3553
+street: 24205 Third Street
+l: Ottumwa
+st: CA
+postalCode: 73148
+postalAddress: Addons Achkar$24205 Third Street$Ottumwa, CA  73148
+
+dn: uid=patron43,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Addy
+sn: Ackaouy
+cn: Addy Ackaouy
+initials: ALA
+employeeNumber: 43
+uid: patron43
+mail:: cGF0cm9uNDNAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 730 876 4353
+homePhone: +1 080 365 7576
+mobile: +1 147 028 9248
+street: 50918 Locust Street
+l: Grand Rapids
+st: KY
+postalCode: 40375
+postalAddress: Addy Ackaouy$50918 Locust Street$Grand Rapids, KY  40375
+
+dn: uid=patron44,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adel
+sn: Acker
+cn: Adel Acker
+initials: AQA
+employeeNumber: 44
+uid: patron44
+mail:: cGF0cm9uNDRAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 086 502 0102
+homePhone: +1 066 158 1148
+mobile: +1 729 853 4271
+street: 25614 Adams Street
+l: Huntington
+st: RI
+postalCode: 11408
+postalAddress: Adel Acker$25614 Adams Street$Huntington, RI  11408
+
+dn: uid=patron45,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adela
+sn: Acklin
+cn: Adela Acklin
+initials: ACA
+employeeNumber: 45
+uid: patron45
+mail:: cGF0cm9uNDVAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 908 874 8328
+homePhone: +1 739 970 6733
+mobile: +1 202 600 5044
+street: 87420 Tenth Street
+l: Columbus
+st: SC
+postalCode: 59838
+postalAddress: Adela Acklin$87420 Tenth Street$Columbus, SC  59838
+
+dn: uid=patron46,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adelaida
+sn: Ackwood
+cn: Adelaida Ackwood
+initials: AKA
+employeeNumber: 46
+uid: patron46
+mail:: cGF0cm9uNDZAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 150 603 0001
+homePhone: +1 526 950 4070
+mobile: +1 858 974 0270
+street: 94575 Franklin Street
+l: Glendive
+st: AL
+postalCode: 21672
+postalAddress: Adelaida Ackwood$94575 Franklin Street$Glendive, AL  21672
+
+dn: uid=patron47,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adelaide
+sn: Acree
+cn: Adelaide Acree
+initials: APA
+employeeNumber: 47
+uid: patron47
+mail:: cGF0cm9uNDdAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 945 096 0896
+homePhone: +1 478 192 9029
+mobile: +1 820 975 7559
+street: 00920 Wilson Street
+l: Bangor
+st: MI
+postalCode: 66053
+postalAddress: Adelaide Acree$00920 Wilson Street$Bangor, MI  66053
+
+dn: uid=patron48,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adele
+sn: Acres
+cn: Adele Acres
+initials: AKA
+employeeNumber: 48
+uid: patron48
+mail:: cGF0cm9uNDhAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 688 944 0766
+homePhone: +1 044 048 1656
+mobile: +1 409 246 9344
+street: 16139 Central Street
+l: Jackson
+st: KS
+postalCode: 39507
+postalAddress: Adele Acres$16139 Central Street$Jackson, KS  39507
+
+dn: uid=patron49,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adelheid
+sn: Acs
+cn: Adelheid Acs
+initials: AUA
+employeeNumber: 49
+uid: patron49
+mail:: cGF0cm9uNDlAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 109 071 1755
+homePhone: +1 722 079 0130
+mobile: +1 067 182 9105
+street: 93406 Poplar Street
+l: Odessa
+st: VT
+postalCode: 46190
+postalAddress: Adelheid Acs$93406 Poplar Street$Odessa, VT  46190
+
+dn: uid=patron50,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adelia
+sn: Actionteam
+cn: Adelia Actionteam
+initials: AVA
+employeeNumber: 50
+uid: patron50
+mail:: cGF0cm9uNTBAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 441 150 0507
+homePhone: +1 902 184 0730
+mobile: +1 347 614 4088
+street: 03072 Hickory Street
+l: Hattiesburg
+st: IA
+postalCode: 31449
+postalAddress: Adelia Actionteam$03072 Hickory Street$Hattiesburg, IA  31449
+
+dn: uid=patron51,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adelice
+sn: Acton
+cn: Adelice Acton
+initials: AJA
+employeeNumber: 51
+uid: patron51
+mail:: cGF0cm9uNTFAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 234 333 2043
+homePhone: +1 387 846 4626
+mobile: +1 588 509 3444
+street: 44614 Johnson Street
+l: Tyler
+st: IN
+postalCode: 05303
+postalAddress: Adelice Acton$44614 Johnson Street$Tyler, IN  05303
+
+dn: uid=patron52,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adelina
+sn: Aczel
+cn: Adelina Aczel
+initials: AVA
+employeeNumber: 52
+uid: patron52
+mail:: cGF0cm9uNTJAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 300 512 4300
+homePhone: +1 018 227 2747
+mobile: +1 528 964 8001
+street: 99258 Fifth Street
+l: Richmond
+st: ME
+postalCode: 78019
+postalAddress: Adelina Aczel$99258 Fifth Street$Richmond, ME  78019
+
+dn: uid=patron53,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adelind
+sn: Adair
+cn: Adelind Adair
+initials: ADA
+employeeNumber: 53
+uid: patron53
+mail:: cGF0cm9uNTNAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 726 307 8853
+homePhone: +1 680 554 0773
+mobile: +1 292 020 3044
+street: 83867 First Street
+l: Fort Smith
+st: LA
+postalCode: 53604
+postalAddress: Adelind Adair$83867 First Street$Fort Smith, LA  53604
+
+dn: uid=patron54,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adeline
+sn: Adam
+cn: Adeline Adam
+initials: AOA
+employeeNumber: 54
+uid: patron54
+mail:: cGF0cm9uNTRAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 648 026 1001
+homePhone: +1 600 040 7952
+mobile: +1 120 042 6289
+street: 15052 Ninth Street
+l: Charlottesville
+st: CO
+postalCode: 08006
+postalAddress: Adeline Adam$15052 Ninth Street$Charlottesville, CO  08006
+
+dn: uid=patron55,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adella
+sn: Adamczyk
+cn: Adella Adamczyk
+initials: AVA
+employeeNumber: 55
+uid: patron55
+mail:: cGF0cm9uNTVAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 092 829 1590
+homePhone: +1 757 165 4036
+mobile: +1 006 194 0470
+street: 00907 Sixth Street
+l: Nashville
+st: ID
+postalCode: 04247
+postalAddress: Adella Adamczyk$00907 Sixth Street$Nashville, ID  04247
+
+dn: uid=patron56,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adelle
+sn: Adamkowski
+cn: Adelle Adamkowski
+initials: ACA
+employeeNumber: 56
+uid: patron56
+mail:: cGF0cm9uNTZAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 185 554 6090
+homePhone: +1 097 208 8560
+mobile: +1 859 106 5171
+street: 88330 College Street
+l: Youngstown
+st: HI
+postalCode: 02153
+postalAddress: Adelle Adamkowski$88330 College Street$Youngstown, HI  02153
+
+dn: uid=patron57,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adena
+sn: Adamo
+cn: Adena Adamo
+initials: ADA
+employeeNumber: 57
+uid: patron57
+mail:: cGF0cm9uNTdAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 534 868 3807
+homePhone: +1 671 422 7310
+mobile: +1 840 603 5841
+street: 67939 Center Street
+l: Sioux Falls
+st: AK
+postalCode: 15997
+postalAddress: Adena Adamo$67939 Center Street$Sioux Falls, AK  15997
+
+dn: uid=patron58,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adeniyi
+sn: Adamowicz
+cn: Adeniyi Adamowicz
+initials: AUA
+employeeNumber: 58
+uid: patron58
+mail:: cGF0cm9uNThAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 310 056 3330
+homePhone: +1 090 173 3800
+mobile: +1 581 289 8000
+street: 01954 Lake Street
+l: Bend
+st: MO
+postalCode: 19022
+postalAddress: Adeniyi Adamowicz$01954 Lake Street$Bend, MO  19022
+
+dn: uid=patron59,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adey
+sn: Adams
+cn: Adey Adams
+initials: AUA
+employeeNumber: 59
+uid: patron59
+mail:: cGF0cm9uNTlAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 149 663 3738
+homePhone: +1 676 739 3470
+mobile: +1 133 530 3708
+street: 99756 First Street
+l: Quincy
+st: CT
+postalCode: 89341
+postalAddress: Adey Adams$99756 First Street$Quincy, CT  89341
+
+dn: uid=patron60,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adi
+sn: Adamski
+cn: Adi Adamski
+initials: AAA
+employeeNumber: 60
+uid: patron60
+mail:: cGF0cm9uNjBAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 834 066 9200
+homePhone: +1 737 904 3649
+mobile: +1 651 040 4008
+street: 08320 Hill Street
+l: Albany
+st: OR
+postalCode: 42913
+postalAddress: Adi Adamski$08320 Hill Street$Albany, OR  42913
+
+dn: uid=patron61,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adiana
+sn: Adamson
+cn: Adiana Adamson
+initials: AXA
+employeeNumber: 61
+uid: patron61
+mail:: cGF0cm9uNjFAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 009 956 8549
+homePhone: +1 701 522 0071
+mobile: +1 081 561 0001
+street: 46023 Elm Street
+l: Gainesville
+st: AR
+postalCode: 84604
+postalAddress: Adiana Adamson$46023 Elm Street$Gainesville, AR  84604
+
+dn: uid=patron62,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adie
+sn: Adamyk
+cn: Adie Adamyk
+initials: AAA
+employeeNumber: 62
+uid: patron62
+mail:: cGF0cm9uNjJAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 056 777 5898
+homePhone: +1 477 034 4800
+mobile: +1 840 207 3062
+street: 87500 Dogwood Street
+l: Billings
+st: TN
+postalCode: 72549
+postalAddress: Adie Adamyk$87500 Dogwood Street$Billings, TN  72549
+
+dn: uid=patron63,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adina
+sn: Adcock
+cn: Adina Adcock
+initials: AFA
+employeeNumber: 63
+uid: patron63
+mail:: cGF0cm9uNjNAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 893 998 5377
+homePhone: +1 119 603 1701
+mobile: +1 027 507 8208
+street: 37704 Poplar Street
+l: Pensacola
+st: NY
+postalCode: 74300
+postalAddress: Adina Adcock$37704 Poplar Street$Pensacola, NY  74300
+
+dn: uid=patron64,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Aditya
+sn: Adcox
+cn: Aditya Adcox
+initials: AOA
+employeeNumber: 64
+uid: patron64
+mail:: cGF0cm9uNjRAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 092 450 3104
+homePhone: +1 499 590 4106
+mobile: +1 708 633 9646
+street: 02544 Walnut Street
+l: Abilene
+st: AK
+postalCode: 00815
+postalAddress: Aditya Adcox$02544 Walnut Street$Abilene, AK  00815
+
+dn: uid=patron65,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Admin
+sn: Addetia
+cn: Admin Addetia
+initials: AJA
+employeeNumber: 65
+uid: patron65
+mail:: cGF0cm9uNjVAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 910 718 8734
+homePhone: +1 281 201 0102
+mobile: +1 811 964 8069
+street: 90980 Mill Street
+l: Huntington
+st: VA
+postalCode: 18310
+postalAddress: Admin Addetia$90980 Mill Street$Huntington, VA  18310
+
+dn: uid=patron66,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adnan
+sn: Addison
+cn: Adnan Addison
+initials: AUA
+employeeNumber: 66
+uid: patron66
+mail:: cGF0cm9uNjZAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 108 418 3856
+homePhone: +1 545 966 5613
+mobile: +1 903 459 2509
+street: 30005 Park Street
+l: Dallas
+st: MD
+postalCode: 00110
+postalAddress: Adnan Addison$30005 Park Street$Dallas, MD  00110
+
+dn: uid=patron67,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adora
+sn: Addona
+cn: Adora Addona
+initials: ANA
+employeeNumber: 67
+uid: patron67
+mail:: cGF0cm9uNjdAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 486 922 0100
+homePhone: +1 022 830 5694
+mobile: +1 183 649 6900
+street: 00022 Fourteenth Street
+l: Fairbanks
+st: NM
+postalCode: 99040
+postalAddress: Adora Addona$00022 Fourteenth Street$Fairbanks, NM  99040
+
+dn: uid=patron68,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adore
+sn: Adeney
+cn: Adore Adeney
+initials: AWA
+employeeNumber: 68
+uid: patron68
+mail:: cGF0cm9uNjhAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 005 373 5172
+homePhone: +1 973 176 5841
+mobile: +1 676 332 6045
+street: 00012 Central Street
+l: Wilmington
+st: AZ
+postalCode: 08035
+postalAddress: Adore Adeney$00012 Central Street$Wilmington, AZ  08035
+
+dn: uid=patron69,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adoree
+sn: Aderhold
+cn: Adoree Aderhold
+initials: AMA
+employeeNumber: 69
+uid: patron69
+mail:: cGF0cm9uNjlAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 700 871 3572
+homePhone: +1 757 398 2510
+mobile: +1 217 019 2155
+street: 62709 Adams Street
+l: Wilmington
+st: NV
+postalCode: 32465
+postalAddress: Adoree Aderhold$62709 Adams Street$Wilmington, NV  32465
+
+dn: uid=patron70,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adorne
+sn: Adey
+cn: Adorne Adey
+initials: AXA
+employeeNumber: 70
+uid: patron70
+mail:: cGF0cm9uNzBAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 316 737 4099
+homePhone: +1 061 144 0730
+mobile: +1 210 285 4597
+street: 09316 Locust Street
+l: Huntsville
+st: NH
+postalCode: 19919
+postalAddress: Adorne Adey$09316 Locust Street$Huntsville, NH  19919
+
+dn: uid=patron71,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adrea
+sn: Adhem
+cn: Adrea Adhem
+initials: ALA
+employeeNumber: 71
+uid: patron71
+mail:: cGF0cm9uNzFAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 410 550 0436
+homePhone: +1 248 469 5182
+mobile: +1 377 823 2426
+street: 20738 East Street
+l: Winston
+st: MN
+postalCode: 47703
+postalAddress: Adrea Adhem$20738 East Street$Winston, MN  47703
+
+dn: uid=patron72,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adri
+sn: Adimari
+cn: Adri Adimari
+initials: AVA
+employeeNumber: 72
+uid: patron72
+mail:: cGF0cm9uNzJAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 810 526 1056
+homePhone: +1 351 943 7071
+mobile: +1 034 510 4062
+street: 12006 Ash Street
+l: Quincy
+st: WI
+postalCode: 43030
+postalAddress: Adri Adimari$12006 Ash Street$Quincy, WI  43030
+
+dn: uid=patron73,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adria
+sn: Adjangba
+cn: Adria Adjangba
+initials: ARA
+employeeNumber: 73
+uid: patron73
+mail:: cGF0cm9uNzNAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 094 486 7401
+homePhone: +1 690 707 2842
+mobile: +1 849 281 3208
+street: 83985 Dogwood Street
+l: Detroit
+st: VA
+postalCode: 53786
+postalAddress: Adria Adjangba$83985 Dogwood Street$Detroit, VA  53786
+
+dn: uid=patron74,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adriaens
+sn: Adkinson
+cn: Adriaens Adkinson
+initials: AEA
+employeeNumber: 74
+uid: patron74
+mail:: cGF0cm9uNzRAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 187 775 6841
+homePhone: +1 949 568 8337
+mobile: +1 000 289 9834
+street: 09977 Madison Street
+l: Santa Barbara
+st: FL
+postalCode: 10687
+postalAddress: Adriaens Adkinson$09977 Madison Street$Santa Barbara, FL  10687
+
+dn: uid=patron75,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adrian
+sn: Adler
+cn: Adrian Adler
+initials: ANA
+employeeNumber: 75
+uid: patron75
+mail:: cGF0cm9uNzVAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 247 075 0242
+homePhone: +1 098 911 9289
+mobile: +1 072 629 3106
+street: 81616 Elm Street
+l: Bakersfield
+st: VT
+postalCode: 98057
+postalAddress: Adrian Adler$81616 Elm Street$Bakersfield, VT  98057
+
+dn: uid=patron76,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adriana
+sn: Admin
+cn: Adriana Admin
+initials: ABA
+employeeNumber: 76
+uid: patron76
+mail:: cGF0cm9uNzZAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 216 830 4638
+homePhone: +1 736 113 5803
+mobile: +1 794 692 8465
+street: 46829 Center Street
+l: Lake Charles
+st: CO
+postalCode: 32654
+postalAddress: Adriana Admin$46829 Center Street$Lake Charles, CO  32654
+
+dn: uid=patron77,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adriane
+sn: Admin-mtv
+cn: Adriane Admin-mtv
+initials: ABA
+employeeNumber: 77
+uid: patron77
+mail:: cGF0cm9uNzdAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 383 512 4763
+homePhone: +1 786 934 6077
+mobile: +1 689 245 7864
+street: 21144 Church Street
+l: Palm Springs
+st: MT
+postalCode: 90270
+postalAddress: Adriane Admin-mtv$21144 Church Street$Palm Springs, MT  90270
+
+dn: uid=patron78,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adrianna
+sn: Administration
+cn: Adrianna Administration
+initials: AZA
+employeeNumber: 78
+uid: patron78
+mail:: cGF0cm9uNzhAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 051 001 0028
+homePhone: +1 606 327 0801
+mobile: +1 444 005 2772
+street: 24308 Ridge Street
+l: Orlando
+st: OK
+postalCode: 03167
+postalAddress: Adrianna Administration$24308 Ridge Street$Orlando, OK  03167
+
+dn: uid=patron79,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adrianne
+sn: Administrator
+cn: Adrianne Administrator
+initials: AIA
+employeeNumber: 79
+uid: patron79
+mail:: cGF0cm9uNzlAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 603 968 9706
+homePhone: +1 263 810 8794
+mobile: +1 459 600 3215
+street: 67472 Second Street
+l: Moline
+st: AZ
+postalCode: 57623
+postalAddress: Adrianne Administrator$67472 Second Street$Moline, AZ  57623
+
+dn: uid=patron80,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adrie
+sn: Adolfie
+cn: Adrie Adolfie
+initials: ALA
+employeeNumber: 80
+uid: patron80
+mail:: cGF0cm9uODBAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 480 373 1484
+homePhone: +1 520 934 7639
+mobile: +1 601 076 5203
+street: 94014 North Street
+l: Charlottesville
+st: LA
+postalCode: 86268
+postalAddress: Adrie Adolfie$94014 North Street$Charlottesville, LA  86268
+
+dn: uid=patron81,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adrien
+sn: Adolph
+cn: Adrien Adolph
+initials: APA
+employeeNumber: 81
+uid: patron81
+mail:: cGF0cm9uODFAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 900 003 5948
+homePhone: +1 245 780 9009
+mobile: +1 377 993 1373
+street: 23432 Forest Street
+l: El Paso
+st: LA
+postalCode: 01038
+postalAddress: Adrien Adolph$23432 Forest Street$El Paso, LA  01038
+
+dn: uid=patron82,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adriena
+sn: Adornato
+cn: Adriena Adornato
+initials: AHA
+employeeNumber: 82
+uid: patron82
+mail:: cGF0cm9uODJAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 093 160 1990
+homePhone: +1 397 681 8656
+mobile: +1 488 407 1321
+street: 02148 Spring Street
+l: Chico
+st: TX
+postalCode: 99920
+postalAddress: Adriena Adornato$02148 Spring Street$Chico, TX  99920
+
+dn: uid=patron83,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Adrienne
+sn: Adorno
+cn: Adrienne Adorno
+initials: AGA
+employeeNumber: 83
+uid: patron83
+mail:: cGF0cm9uODNAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 467 701 7271
+homePhone: +1 167 508 9371
+mobile: +1 582 265 4051
+street: 43690 Spring Street
+l: Cincinnati
+st: OK
+postalCode: 47186
+postalAddress: Adrienne Adorno$43690 Spring Street$Cincinnati, OK  47186
+
+dn: uid=patron84,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Advance
+sn: Adriaansen
+cn: Advance Adriaansen
+initials: AMA
+employeeNumber: 84
+uid: patron84
+mail:: cGF0cm9uODRAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 720 057 6304
+homePhone: +1 405 091 0313
+mobile: +1 552 690 9188
+street: 02941 Oak Street
+l: Mankato
+st: GA
+postalCode: 17713
+postalAddress: Advance Adriaansen$02941 Oak Street$Mankato, GA  17713
+
+dn: uid=patron85,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Aeriel
+sn: Aery
+cn: Aeriel Aery
+initials: AFA
+employeeNumber: 85
+uid: patron85
+mail:: cGF0cm9uODVAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 936 000 8074
+homePhone: +1 191 522 3183
+mobile: +1 995 417 8441
+street: 38350 Elm Street
+l: Spartanburg
+st: WI
+postalCode: 79870
+postalAddress: Aeriel Aery$38350 Elm Street$Spartanburg, WI  79870
+
+dn: uid=patron86,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Aeriela
+sn: Afkham
+cn: Aeriela Afkham
+initials: AUA
+employeeNumber: 86
+uid: patron86
+mail:: cGF0cm9uODZAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 654 300 1904
+homePhone: +1 303 935 3465
+mobile: +1 150 930 7410
+street: 70979 Taylor Street
+l: Hattiesburg
+st: WV
+postalCode: 03060
+postalAddress: Aeriela Afkham$70979 Taylor Street$Hattiesburg, WV  03060
+
+dn: uid=patron87,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Aeriell
+sn: Afkham-ebrahimi
+cn: Aeriell Afkham-ebrahimi
+initials: AOA
+employeeNumber: 87
+uid: patron87
+mail:: cGF0cm9uODdAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 123 277 7303
+homePhone: +1 323 103 2619
+mobile: +1 676 063 1853
+street: 66139 Madison Street
+l: Wheeling
+st: KS
+postalCode: 27203
+postalAddress: Aeriell Afkham-ebrahimi$66139 Madison Street$Wheeling, KS  27203
+
+dn: uid=patron88,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Afif
+sn: Agarwal
+cn: Afif Agarwal
+initials: AFA
+employeeNumber: 88
+uid: patron88
+mail:: cGF0cm9uODhAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 076 324 8070
+homePhone: +1 939 060 8461
+mobile: +1 082 858 2261
+street: 34888 Wilson Street
+l: Lincoln
+st: KY
+postalCode: 66003
+postalAddress: Afif Agarwal$34888 Wilson Street$Lincoln, KY  66003
+
+dn: uid=patron89,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Afke
+sn: Aggarwal
+cn: Afke Aggarwal
+initials: AHA
+employeeNumber: 89
+uid: patron89
+mail:: cGF0cm9uODlAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 829 038 2550
+homePhone: +1 438 657 1342
+mobile: +1 200 750 6680
+street: 10396 Spruce Street
+l: Huntsville
+st: PA
+postalCode: 02074
+postalAddress: Afke Aggarwal$10396 Spruce Street$Huntsville, PA  02074
+
+dn: uid=patron90,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Afton
+sn: Aghi
+cn: Afton Aghi
+initials: ATA
+employeeNumber: 90
+uid: patron90
+mail:: cGF0cm9uOTBAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 390 865 2128
+homePhone: +1 898 518 9629
+mobile: +1 145 805 3046
+street: 70705 Davis Street
+l: Baton Rouge
+st: MS
+postalCode: 88590
+postalAddress: Afton Aghi$70705 Davis Street$Baton Rouge, MS  88590
+
+dn: uid=patron91,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Afzal
+sn: Aghili
+cn: Afzal Aghili
+initials: AKA
+employeeNumber: 91
+uid: patron91
+mail:: cGF0cm9uOTFAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 763 741 3741
+homePhone: +1 443 822 0428
+mobile: +1 636 389 7567
+street: 89894 Sycamore Street
+l: Flint
+st: IA
+postalCode: 70403
+postalAddress: Afzal Aghili$89894 Sycamore Street$Flint, IA  70403
+
+dn: uid=patron92,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Ag
+sn: Agily
+cn: Ag Agily
+initials: AMA
+employeeNumber: 92
+uid: patron92
+mail:: cGF0cm9uOTJAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 810 609 5665
+homePhone: +1 635 341 5320
+mobile: +1 719 169 0791
+street: 72070 Eighth Street
+l: Lexington
+st: WI
+postalCode: 80909
+postalAddress: Ag Agily$72070 Eighth Street$Lexington, WI  80909
+
+dn: uid=patron93,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Agace
+sn: Agnew
+cn: Agace Agnew
+initials: ATA
+employeeNumber: 93
+uid: patron93
+mail:: cGF0cm9uOTNAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 649 670 8951
+homePhone: +1 461 449 5018
+mobile: +1 234 130 8755
+street: 63097 Williams Street
+l: Mobile
+st: MS
+postalCode: 67329
+postalAddress: Agace Agnew$63097 Williams Street$Mobile, MS  67329
+
+dn: uid=patron94,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Agata
+sn: Agnihotri
+cn: Agata Agnihotri
+initials: AYA
+employeeNumber: 94
+uid: patron94
+mail:: cGF0cm9uOTRAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 022 630 3043
+homePhone: +1 507 562 8543
+mobile: +1 752 161 3002
+street: 37128 Woodland Street
+l: Hattiesburg
+st: KS
+postalCode: 87607
+postalAddress: Agata Agnihotri$37128 Woodland Street$Hattiesburg, KS  87607
+
+dn: uid=patron95,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Agatha
+sn: Agostino
+cn: Agatha Agostino
+initials: AXA
+employeeNumber: 95
+uid: patron95
+mail:: cGF0cm9uOTVAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 103 452 2969
+homePhone: +1 072 606 8070
+mobile: +1 523 407 4558
+street: 17049 Davis Street
+l: Flint
+st: IA
+postalCode: 72492
+postalAddress: Agatha Agostino$17049 Davis Street$Flint, IA  72492
+
+dn: uid=patron96,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Agathe
+sn: Aguiar
+cn: Agathe Aguiar
+initials: AQA
+employeeNumber: 96
+uid: patron96
+mail:: cGF0cm9uOTZAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 960 558 2979
+homePhone: +1 970 487 0682
+mobile: +1 727 052 8920
+street: 76117 Adams Street
+l: Florence
+st: AK
+postalCode: 21231
+postalAddress: Agathe Aguiar$76117 Adams Street$Florence, AK  21231
+
+dn: uid=patron97,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Agenia
+sn: Aguilar
+cn: Agenia Aguilar
+initials: AHA
+employeeNumber: 97
+uid: patron97
+mail:: cGF0cm9uOTdAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 632 344 3201
+homePhone: +1 511 107 8587
+mobile: +1 107 424 4500
+street: 70823 Jackson Street
+l: Las Vegas
+st: IA
+postalCode: 14282
+postalAddress: Agenia Aguilar$70823 Jackson Street$Las Vegas, IA  14282
+
+dn: uid=patron98,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Aggi
+sn: Aguinsky
+cn: Aggi Aguinsky
+initials: ABA
+employeeNumber: 98
+uid: patron98
+mail:: cGF0cm9uOThAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 030 327 4016
+homePhone: +1 164 102 7708
+mobile: +1 286 379 6690
+street: 55008 Pine Street
+l: Amarillo
+st: TN
+postalCode: 48200
+postalAddress: Aggi Aguinsky$55008 Pine Street$Amarillo, TN  48200
+
+dn: uid=patron99,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Aggie
+sn: Aguirre
+cn: Aggie Aguirre
+initials: AHA
+employeeNumber: 99
+uid: patron99
+mail:: cGF0cm9uOTlAaW5mbGlueC5jb20g
+userPassword: password
+telephoneNumber: +1 640 206 9728
+homePhone: +1 082 629 7386
+mobile: +1 217 240 6007
+street: 23900 Valley Street
+l: Denver
+st: NE
+postalCode: 51911
+postalAddress: Aggie Aguirre$23900 Valley Street$Denver, NE  51911
+
+dn: uid=patron100,ou=patrons,dc=inflinx,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalperson
+objectClass: inetorgperson
+givenName: Aggy
+sn: Ahad
+cn: Aggy Ahad
+initials: ADA
+employeeNumber: 100
+uid: patron100
+mail:: cGF0cm9uMTAwQGluZmxpbnguY29tIA==
+userPassword: password
+telephoneNumber: +1 232 025 4008
+homePhone: +1 686 090 0035
+mobile: +1 740 253 1138
+street: 39177 Davis Street
+l: Durham
+st: TX
+postalCode: 80088
+postalAddress: Aggy Ahad$39177 Davis Street$Durham, TX  80088
+

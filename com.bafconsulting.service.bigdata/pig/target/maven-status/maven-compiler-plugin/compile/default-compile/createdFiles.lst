@@ -1,0 +1,4 @@
+com\hadoopbook\pig\Range.class
+com\hadoopbook\pig\Trim.class
+com\hadoopbook\pig\CutLoadFunc.class
+com\hadoopbook\pig\IsGoodQuality.class

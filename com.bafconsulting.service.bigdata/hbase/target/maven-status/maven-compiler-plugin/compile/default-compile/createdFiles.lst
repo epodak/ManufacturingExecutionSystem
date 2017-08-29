@@ -1,0 +1,14 @@
+SimpleRowCounter$RowCounterMapper$Counters.class
+HBaseTemperatureDirectImporter.class
+ExampleClient.class
+SimpleRowCounter.class
+HBaseTemperatureDirectImporter$HBaseTemperatureMapper.class
+HBaseTemperatureBulkImporter.class
+HBaseTemperatureImporter.class
+HBaseTemperatureBulkImporter$HBaseTemperatureMapper.class
+RowKeyConverter.class
+HBaseStationImporter.class
+SimpleRowCounter$RowCounterMapper.class
+HBaseTemperatureImporter$HBaseTemperatureMapper.class
+HBaseTemperatureQuery.class
+HBaseStationQuery.class

@@ -1,0 +1,10 @@
+---
+netMap:
+    rules:
+        - match: .*
+          filters: [encrypt]
+
+    id:
+        key : example/src/main/keys/server-private.pem
+        certificate: example/src/main/keys/server-certificate.pem
+...

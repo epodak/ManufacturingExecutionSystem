@@ -1,0 +1,10 @@
+*~
+*.jar
+*.class
+*.ser
+*.iml
+.idea
+*.proxy
+target
+*.log
+*.log.*

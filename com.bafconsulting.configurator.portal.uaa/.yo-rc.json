@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.bafconsulting.configurator.portal.uaa"
+    },
+    "jhipsterVersion": "4.7.0",
+    "baseName": "uaa",
+    "packageName": "com.bafconsulting.configurator.portal.uaa",
+    "packageFolder": "com/bafconsulting/configurator/portal/uaa",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "cassandra",
+    "devDatabaseType": "cassandra",
+    "prodDatabaseType": "cassandra",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "d2af51ad2cd680bccf590cd3072ae9689f52410e",
+    "enableTranslation": false,
+    "applicationType": "uaa",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "clientPackageManager": "yarn"
+  }
+}

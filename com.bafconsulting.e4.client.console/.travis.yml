@@ -1,0 +1,19 @@
+os:
+  - linux
+services:
+  - docker
+env:
+  matrix:
+    - APP=alerter
+    - APP=console
+    - APP=elasticsearch
+    - APP=logstash
+    - APP=zipkin
+    - APP=import-dashboards
+    - APP=curator
+install:
+  - docker version
+  - docker build -f jhipster-"$APP"/Dockerfile -t jhipster/jhipster-"$APP":travis jhipster-"$APP"/
+script:
+  - docker images
+  - docker inspect jhipster/jhipster-"$APP":travis

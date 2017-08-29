@@ -1,0 +1,6 @@
+com\hadoopbook\hive\Strip.class
+com\hadoopbook\hive\Maximum$MaximumIntUDAFEvaluator.class
+com\hadoopbook\hive\Maximum.class
+com\hadoopbook\hive\Mean.class
+com\hadoopbook\hive\Mean$MeanDoubleUDAFEvaluator.class
+com\hadoopbook\hive\Mean$MeanDoubleUDAFEvaluator$PartialResult.class

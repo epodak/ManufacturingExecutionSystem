@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<project basedir="." default="main">
+
+    <property name="src" value="src"/>
+    <property name="output" value="output"/>
+
+    <target name="main" depends="jar">
+        <taskdef name="project" classname="Project" classpath="Project.jar"/>
+        <project>No worries.</project>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${output}"/>
+        <javac srcdir="${src}" destdir="${output}"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <jar destfile="Project.jar" basedir="${output}"/>
+    </target>
+
+</project>

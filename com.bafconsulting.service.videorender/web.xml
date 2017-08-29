@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_5.xsd">
+	<context-param>
+		<param-name>pageCount</param-name>
+		<param-value>20</param-value>
+	</context-param>
+	<context-param>
+		<param-name>monitorNum</param-name>
+		<param-value>0</param-value>
+	</context-param>
+	<!--interval of scanning the monitor folder -->
+	<context-param>
+		<param-name>interval</param-name>
+		<param-value>10</param-value>
+	</context-param>
+	<!-- the minmum time of render a video -->
+	<context-param>
+		<param-name>minRenderTime</param-name>
+		<param-value>20</param-value>
+	</context-param>
+	<!-- debug model -->
+	<context-param>
+		<param-name>debug</param-name>
+		<param-value>false</param-value>
+	</context-param>
+
+	<!-- preset colors for video text -->
+	<context-param>
+		<param-name>presetColors</param-name>
+		<param-value>0,0,0$255,0,0,$0,255,0$255,255,255</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>aeRootPath</param-name>
+		<param-value>/z/</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>fileRootPath</param-name>
+		<param-value>z:/</param-value>
+	</context-param>
+
+	<!--location of xml folder -->
+	<context-param>
+		<param-name>monitorPath</param-name>
+		<param-value>monitor</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>tempPath</param-name>
+		<param-value>temp</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>outputPath</param-name>
+		<param-value>output</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>image</param-name>
+		<param-value>image_collection</param-value>
+	</context-param>
+	<context-param>
+		<param-name>audio</param-name>
+		<param-value>audio_collection</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>video</param-name>
+		<param-value>video_collection</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>other</param-name>
+		<param-value>other_collection</param-value>
+	</context-param>
+	
+	<!-- ?????????,??byte -->
+	<context-param>
+		<param-name>maxFileSize</param-name>
+		<param-value>15728640</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>video_format_web</param-name>
+		<param-value>flv</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>video_format_mobile</param-name>
+		<param-value>mp4</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>Init-Command</param-name>
+		<param-value>cmd /c net use z: \\10.100.7.73\filesystem</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>domain</param-name>
+		<param-value>http://205.189.47.205:8080</param-value>
+	</context-param>
+	
+	<listener>
+		<listener-class>com.jugnoo.video.util.WebContextUtil</listener-class>
+	</listener>
+	<listener>
+		<listener-class>com.jugnoo.video.init.InitMgr</listener-class>
+	</listener>
+
+	<filter>
+		<filter-name>CharsetFilter</filter-name>
+		<filter-class>com.jugnoo.video.util.CharsetFilter</filter-class>
+		<init-param>     
+			<param-name>encoding</param-name>     
+           	<param-value>utf-8</param-value>     
+        </init-param> 
+	</filter>
+	<filter-mapping>
+		<filter-name>CharsetFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<!-- get themes list -->
+	<servlet>
+		<servlet-name>ListThemesServlet</servlet-name>
+		<servlet-class>com.jugnoo.video.servlet.ListThemesServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListThemesServlet</servlet-name>
+		<url-pattern>/interface/ListThemes</url-pattern>
+	</servlet-mapping>
+
+	<!-- get assets with indicated theme -->
+	<servlet>
+		<servlet-name>GetSchameServlet</servlet-name>
+		<servlet-class>com.jugnoo.video.servlet.GetSchameServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetSchameServlet</servlet-name>
+		<url-pattern>/interface/getSchema</url-pattern>
+	</servlet-mapping>
+
+	<!-- create video -->
+	<servlet>
+		<servlet-name>CreateVideoServlet</servlet-name>
+		<servlet-class>com.jugnoo.video.servlet.CreateVideoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateVideoServlet</servlet-name>
+		<url-pattern>/interface/CreateVideo</url-pattern>
+	</servlet-mapping>
+
+	<!-- query job status -->
+	<servlet>
+		<servlet-name>GetJobStatusServlet</servlet-name>
+		<servlet-class>com.jugnoo.video.servlet.GetStatusServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetJobStatusServlet</servlet-name>
+		<url-pattern>/interface/QueryVideoStatus</url-pattern>
+	</servlet-mapping>
+
+	<!-- file download -->
+	<servlet>
+		<servlet-name>FileDownloadServlet</servlet-name>
+		<servlet-class>com.jugnoo.video.servlet.FileDownload</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FileDownloadServlet</servlet-name>
+		<url-pattern>/interface/Download</url-pattern>
+	</servlet-mapping>
+
+	<!-- file upload -->
+	<servlet>
+		<servlet-name>FileUploadServlet</servlet-name>
+		<servlet-class>com.jugnoo.video.servlet.FileUpload</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FileUploadServlet</servlet-name>
+		<url-pattern>/interface/Upload</url-pattern>
+	</servlet-mapping>
+	
+	<!-- query upload images for user -->
+	<servlet>
+		<servlet-name>QueryUploadImageServlet</servlet-name>
+		<servlet-class>com.jugnoo.video.servlet.QueryUploadImageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QueryUploadImageServlet</servlet-name>
+		<url-pattern>/interface/QueryUploadImage</url-pattern>
+	</servlet-mapping>
+	
+	<!-- query create video for user -->
+	<servlet>
+		<servlet-name>QueryCreateVideoServlet</servlet-name>
+		<servlet-class>com.jugnoo.video.servlet.QueryCreateVideoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QueryCreateVideoServlet</servlet-name>
+		<url-pattern>/interface/QueryCreateVideo</url-pattern>
+	</servlet-mapping>
+
+	<error-page> 
+		<error-code>404</error-code> 
+		<location>/404error.jsp</location> 
+	</error-page>
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

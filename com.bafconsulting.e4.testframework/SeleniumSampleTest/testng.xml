@@ -1,0 +1,12 @@
+<suite name="Selenium Suite" parallel="tests" thread-count="2">
+	<test name="Selenium test - 1">
+		<classes>
+			<class name="test.java.org.sample.selenium.SampleSeleniumTest" />
+		</classes>
+	</test>
+	<test name="Selenium test - 2">
+		<classes>
+			<class name="test.java.org.sample.selenium.SampleSeleniumTest" />
+		</classes>
+	</test>
+</suite>

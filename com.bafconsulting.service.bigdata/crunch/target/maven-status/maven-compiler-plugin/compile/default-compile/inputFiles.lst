@@ -1,0 +1,14 @@
+F:\bigdata-workspace\hadoop\Hadoop The Definitive Guide, Fourth Edition\ch18-crunch\src\main\java\crunch\MaxTemperatureByStationNameCrunch.java
+F:\bigdata-workspace\hadoop\Hadoop The Definitive Guide, Fourth Edition\ch18-crunch\src\main\java\crunch\MaxTemperatureCrunch.java
+F:\bigdata-workspace\hadoop\Hadoop The Definitive Guide, Fourth Edition\ch18-crunch\src\main\java\crunch\AvroGenericMaxTemperatureCrunch.java
+F:\bigdata-workspace\hadoop\Hadoop The Definitive Guide, Fourth Edition\ch18-crunch\src\main\java\crunch\MetOfficeRecordParser.java
+F:\bigdata-workspace\hadoop\Hadoop The Definitive Guide, Fourth Edition\ch18-crunch\src\main\java\crunch\MaxTemperatureCrunchWithShutdownHook.java
+F:\bigdata-workspace\hadoop\Hadoop The Definitive Guide, Fourth Edition\ch18-crunch\src\main\java\crunch\JoinRecordWithStationNameCrunch.java
+F:\bigdata-workspace\hadoop\Hadoop The Definitive Guide, Fourth Edition\ch18-crunch\src\main\java\crunch\MaxTemperatureWithCountersCrunch.java
+F:\bigdata-workspace\hadoop\Hadoop The Definitive Guide, Fourth Edition\ch18-crunch\src\main\java\crunch\SplitCrunch.java
+F:\bigdata-workspace\hadoop\Hadoop The Definitive Guide, Fourth Edition\ch18-crunch\src\main\java\crunch\MaxTemperatureWithMultipleInputsCrunch.java
+F:\bigdata-workspace\hadoop\Hadoop The Definitive Guide, Fourth Edition\ch18-crunch\src\main\java\crunch\SortByTemperatureCrunch.java
+F:\bigdata-workspace\hadoop\Hadoop The Definitive Guide, Fourth Edition\ch18-crunch\src\main\java\crunch\NcdcStationMetadataParser.java
+F:\bigdata-workspace\hadoop\Hadoop The Definitive Guide, Fourth Edition\ch18-crunch\src\main\java\crunch\MaxTemperatureUsingSecondarySortCrunch.java
+F:\bigdata-workspace\hadoop\Hadoop The Definitive Guide, Fourth Edition\ch18-crunch\src\main\java\crunch\NcdcRecordParser.java
+F:\bigdata-workspace\hadoop\Hadoop The Definitive Guide, Fourth Edition\ch18-crunch\src\main\java\crunch\MaxTemperatureWithCompressionCrunch.java
