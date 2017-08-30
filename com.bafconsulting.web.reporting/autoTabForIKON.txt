@@ -1,0 +1,38 @@
+Hello all.
+
+Is it possible to configure the barcode scanner on the IKON to trigger an event after a successful scan?
+
+I want to apply a "TAB" after a successful read in a internet browser textfield.
+
+The scanner is a Decoded(Intermec ISCP).
+
+Thanks,
+
+Chris
+
+=============================================================================================================
+
+
+
+Good morning Chris and Welcome to the Community,
+
+Have you considered configuring the scanner so a TAB suffix character is automatically added to the barcode data?
+
+E.g.
+
+Open up the Teklogix Scanners applet
+Move to the Translations tabulation
+Expand Case 1
+Double-click No rule
+Select Add barcode prefix/suffix
+Click the Suffix edit box
+Click [ Insert Key ]
+Press the TAB key, then click [ OK ]
+
+  
+
+Press [ OK ] to save the new settings
+I do hope this helps.
+Kind regards,
+
+Jacques
